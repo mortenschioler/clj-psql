@@ -1,6 +1,7 @@
-# clj-psql
+>[!WARNING]
+>Fork of unmaintained repo. No warranties, no guarantuee of support. Original credit: https://github.com/darindouglass/clj-psql
 
-[![Clojars Project](https://img.shields.io/clojars/v/douglass/clj-psql.svg)](https://clojars.org/douglass/clj-psql)
+# clj-psql
 
 A small wrapper around `psql`. Intended for use with [babashka](https://github.com/borkdude/babashka) by those that don't want to maintain their own JDBC-enabled binary.
 
