@@ -31,6 +31,9 @@
     (sequential? value)
     (wrap-parens (map format-value value))
 
+    (nil? value)
+    "NULL"
+
     :else
     value))
 
